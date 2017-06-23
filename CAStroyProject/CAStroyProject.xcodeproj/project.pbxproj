@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB8C15F91EFCA4C200E1B640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15F81EFCA4C200E1B640 /* main.m */; };
+		EB8C15FC1EFCA4C200E1B640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15FB1EFCA4C200E1B640 /* AppDelegate.m */; };
+		EB8C15FF1EFCA4C200E1B640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15FE1EFCA4C200E1B640 /* ViewController.m */; };
+		EB8C16021EFCA4C200E1B640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8C16001EFCA4C200E1B640 /* Main.storyboard */; };
+		EB8C16041EFCA4C200E1B640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8C16031EFCA4C200E1B640 /* Assets.xcassets */; };
+		EB8C16071EFCA4C200E1B640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8C16051EFCA4C200E1B640 /* LaunchScreen.storyboard */; };
+		EB8C16121EFCA4C200E1B640 /* CAStroyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16111EFCA4C200E1B640 /* CAStroyProjectTests.m */; };
+		EB8C161D1EFCA4C200E1B640 /* CAStroyProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C161C1EFCA4C200E1B640 /* CAStroyProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB8C160E1EFCA4C200E1B640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8C15EC1EFCA4C200E1B640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8C15F31EFCA4C200E1B640;
+			remoteInfo = CAStroyProject;
+		};
+		EB8C16191EFCA4C200E1B640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8C15EC1EFCA4C200E1B640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8C15F31EFCA4C200E1B640;
+			remoteInfo = CAStroyProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB8C15F41EFCA4C200E1B640 /* CAStroyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAStroyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8C15F81EFCA4C200E1B640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB8C15FA1EFCA4C200E1B640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB8C15FB1EFCA4C200E1B640 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB8C15FD1EFCA4C200E1B640 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB8C15FE1EFCA4C200E1B640 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB8C16011EFCA4C200E1B640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB8C16031EFCA4C200E1B640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB8C16061EFCA4C200E1B640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB8C16081EFCA4C200E1B640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8C160D1EFCA4C200E1B640 /* CAStroyProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAStroyProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8C16111EFCA4C200E1B640 /* CAStroyProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAStroyProjectTests.m; sourceTree = "<group>"; };
+		EB8C16131EFCA4C200E1B640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8C16181EFCA4C200E1B640 /* CAStroyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAStroyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8C161C1EFCA4C200E1B640 /* CAStroyProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAStroyProjectUITests.m; sourceTree = "<group>"; };
+		EB8C161E1EFCA4C200E1B640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB8C15F11EFCA4C200E1B640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C160A1EFCA4C200E1B640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C16151EFCA4C200E1B640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB8C15EB1EFCA4C200E1B640 = {
+			isa = PBXGroup;
+			children = (
+				EB8C15F61EFCA4C200E1B640 /* CAStroyProject */,
+				EB8C16101EFCA4C200E1B640 /* CAStroyProjectTests */,
+				EB8C161B1EFCA4C200E1B640 /* CAStroyProjectUITests */,
+				EB8C15F51EFCA4C200E1B640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8C15F51EFCA4C200E1B640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C15F41EFCA4C200E1B640 /* CAStroyProject.app */,
+				EB8C160D1EFCA4C200E1B640 /* CAStroyProjectTests.xctest */,
+				EB8C16181EFCA4C200E1B640 /* CAStroyProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8C15F61EFCA4C200E1B640 /* CAStroyProject */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C15FA1EFCA4C200E1B640 /* AppDelegate.h */,
+				EB8C15FB1EFCA4C200E1B640 /* AppDelegate.m */,
+				EB8C15FD1EFCA4C200E1B640 /* ViewController.h */,
+				EB8C15FE1EFCA4C200E1B640 /* ViewController.m */,
+				EB8C16001EFCA4C200E1B640 /* Main.storyboard */,
+				EB8C16031EFCA4C200E1B640 /* Assets.xcassets */,
+				EB8C16051EFCA4C200E1B640 /* LaunchScreen.storyboard */,
+				EB8C16081EFCA4C200E1B640 /* Info.plist */,
+				EB8C15F71EFCA4C200E1B640 /* Supporting Files */,
+			);
+			path = CAStroyProject;
+			sourceTree = "<group>";
+		};
+		EB8C15F71EFCA4C200E1B640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C15F81EFCA4C200E1B640 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB8C16101EFCA4C200E1B640 /* CAStroyProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C16111EFCA4C200E1B640 /* CAStroyProjectTests.m */,
+				EB8C16131EFCA4C200E1B640 /* Info.plist */,
+			);
+			path = CAStroyProjectTests;
+			sourceTree = "<group>";
+		};
+		EB8C161B1EFCA4C200E1B640 /* CAStroyProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C161C1EFCA4C200E1B640 /* CAStroyProjectUITests.m */,
+				EB8C161E1EFCA4C200E1B640 /* Info.plist */,
+			);
+			path = CAStroyProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB8C15F31EFCA4C200E1B640 /* CAStroyProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8C16211EFCA4C200E1B640 /* Build configuration list for PBXNativeTarget "CAStroyProject" */;
+			buildPhases = (
+				EB8C15F01EFCA4C200E1B640 /* Sources */,
+				EB8C15F11EFCA4C200E1B640 /* Frameworks */,
+				EB8C15F21EFCA4C200E1B640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAStroyProject;
+			productName = CAStroyProject;
+			productReference = EB8C15F41EFCA4C200E1B640 /* CAStroyProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB8C160C1EFCA4C200E1B640 /* CAStroyProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8C16241EFCA4C200E1B640 /* Build configuration list for PBXNativeTarget "CAStroyProjectTests" */;
+			buildPhases = (
+				EB8C16091EFCA4C200E1B640 /* Sources */,
+				EB8C160A1EFCA4C200E1B640 /* Frameworks */,
+				EB8C160B1EFCA4C200E1B640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8C160F1EFCA4C200E1B640 /* PBXTargetDependency */,
+			);
+			name = CAStroyProjectTests;
+			productName = CAStroyProjectTests;
+			productReference = EB8C160D1EFCA4C200E1B640 /* CAStroyProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB8C16171EFCA4C200E1B640 /* CAStroyProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8C16271EFCA4C200E1B640 /* Build configuration list for PBXNativeTarget "CAStroyProjectUITests" */;
+			buildPhases = (
+				EB8C16141EFCA4C200E1B640 /* Sources */,
+				EB8C16151EFCA4C200E1B640 /* Frameworks */,
+				EB8C16161EFCA4C200E1B640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8C161A1EFCA4C200E1B640 /* PBXTargetDependency */,
+			);
+			name = CAStroyProjectUITests;
+			productName = CAStroyProjectUITests;
+			productReference = EB8C16181EFCA4C200E1B640 /* CAStroyProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB8C15EC1EFCA4C200E1B640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lh;
+				TargetAttributes = {
+					EB8C15F31EFCA4C200E1B640 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EB8C160C1EFCA4C200E1B640 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB8C15F31EFCA4C200E1B640;
+					};
+					EB8C16171EFCA4C200E1B640 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB8C15F31EFCA4C200E1B640;
+					};
+				};
+			};
+			buildConfigurationList = EB8C15EF1EFCA4C200E1B640 /* Build configuration list for PBXProject "CAStroyProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB8C15EB1EFCA4C200E1B640;
+			productRefGroup = EB8C15F51EFCA4C200E1B640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8C15F31EFCA4C200E1B640 /* CAStroyProject */,
+				EB8C160C1EFCA4C200E1B640 /* CAStroyProjectTests */,
+				EB8C16171EFCA4C200E1B640 /* CAStroyProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB8C15F21EFCA4C200E1B640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C16071EFCA4C200E1B640 /* LaunchScreen.storyboard in Resources */,
+				EB8C16041EFCA4C200E1B640 /* Assets.xcassets in Resources */,
+				EB8C16021EFCA4C200E1B640 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C160B1EFCA4C200E1B640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C16161EFCA4C200E1B640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB8C15F01EFCA4C200E1B640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C15FF1EFCA4C200E1B640 /* ViewController.m in Sources */,
+				EB8C15FC1EFCA4C200E1B640 /* AppDelegate.m in Sources */,
+				EB8C15F91EFCA4C200E1B640 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C16091EFCA4C200E1B640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C16121EFCA4C200E1B640 /* CAStroyProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C16141EFCA4C200E1B640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C161D1EFCA4C200E1B640 /* CAStroyProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB8C160F1EFCA4C200E1B640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8C15F31EFCA4C200E1B640 /* CAStroyProject */;
+			targetProxy = EB8C160E1EFCA4C200E1B640 /* PBXContainerItemProxy */;
+		};
+		EB8C161A1EFCA4C200E1B640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8C15F31EFCA4C200E1B640 /* CAStroyProject */;
+			targetProxy = EB8C16191EFCA4C200E1B640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB8C16001EFCA4C200E1B640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8C16011EFCA4C200E1B640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB8C16051EFCA4C200E1B640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8C16061EFCA4C200E1B640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB8C161F1EFCA4C200E1B640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB8C16201EFCA4C200E1B640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB8C16221EFCA4C200E1B640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAStroyProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CAStroyProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB8C16231EFCA4C200E1B640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAStroyProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CAStroyProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB8C16251EFCA4C200E1B640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAStroyProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CAStroyProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAStroyProject.app/CAStroyProject";
+			};
+			name = Debug;
+		};
+		EB8C16261EFCA4C200E1B640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAStroyProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CAStroyProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAStroyProject.app/CAStroyProject";
+			};
+			name = Release;
+		};
+		EB8C16281EFCA4C200E1B640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAStroyProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CAStroyProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAStroyProject;
+			};
+			name = Debug;
+		};
+		EB8C16291EFCA4C200E1B640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAStroyProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CAStroyProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAStroyProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB8C15EF1EFCA4C200E1B640 /* Build configuration list for PBXProject "CAStroyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8C161F1EFCA4C200E1B640 /* Debug */,
+				EB8C16201EFCA4C200E1B640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8C16211EFCA4C200E1B640 /* Build configuration list for PBXNativeTarget "CAStroyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8C16221EFCA4C200E1B640 /* Debug */,
+				EB8C16231EFCA4C200E1B640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB8C16241EFCA4C200E1B640 /* Build configuration list for PBXNativeTarget "CAStroyProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8C16251EFCA4C200E1B640 /* Debug */,
+				EB8C16261EFCA4C200E1B640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB8C16271EFCA4C200E1B640 /* Build configuration list for PBXNativeTarget "CAStroyProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8C16281EFCA4C200E1B640 /* Debug */,
+				EB8C16291EFCA4C200E1B640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB8C15EC1EFCA4C200E1B640 /* Project object */;
+}
