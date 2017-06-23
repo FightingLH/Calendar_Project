@@ -15,6 +15,11 @@
 		EB8C16071EFCA4C200E1B640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8C16051EFCA4C200E1B640 /* LaunchScreen.storyboard */; };
 		EB8C16121EFCA4C200E1B640 /* CAStroyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16111EFCA4C200E1B640 /* CAStroyProjectTests.m */; };
 		EB8C161D1EFCA4C200E1B640 /* CAStroyProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C161C1EFCA4C200E1B640 /* CAStroyProjectUITests.m */; };
+		EB8C162F1EFCA8BB00E1B640 /* CABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C162E1EFCA8BB00E1B640 /* CABaseViewController.m */; };
+		EB8C16321EFCA8DB00E1B640 /* CATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16311EFCA8DB00E1B640 /* CATabBarController.m */; };
+		EB8C16351EFCA91A00E1B640 /* CAShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16341EFCA91A00E1B640 /* CAShowViewController.m */; };
+		EB8C16381EFCA92800E1B640 /* CASetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16371EFCA92800E1B640 /* CASetViewController.m */; };
+		EB8C163B1EFCA96800E1B640 /* CANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C163A1EFCA96800E1B640 /* CANavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,17 @@
 		EB8C16181EFCA4C200E1B640 /* CAStroyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAStroyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8C161C1EFCA4C200E1B640 /* CAStroyProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAStroyProjectUITests.m; sourceTree = "<group>"; };
 		EB8C161E1EFCA4C200E1B640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8C162D1EFCA8BB00E1B640 /* CABaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABaseViewController.h; sourceTree = "<group>"; };
+		EB8C162E1EFCA8BB00E1B640 /* CABaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABaseViewController.m; sourceTree = "<group>"; };
+		EB8C16301EFCA8DB00E1B640 /* CATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATabBarController.h; sourceTree = "<group>"; };
+		EB8C16311EFCA8DB00E1B640 /* CATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATabBarController.m; sourceTree = "<group>"; };
+		EB8C16331EFCA91A00E1B640 /* CAShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShowViewController.h; sourceTree = "<group>"; };
+		EB8C16341EFCA91A00E1B640 /* CAShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShowViewController.m; sourceTree = "<group>"; };
+		EB8C16361EFCA92800E1B640 /* CASetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASetViewController.h; sourceTree = "<group>"; };
+		EB8C16371EFCA92800E1B640 /* CASetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASetViewController.m; sourceTree = "<group>"; };
+		EB8C16391EFCA96800E1B640 /* CANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANavigationController.h; sourceTree = "<group>"; };
+		EB8C163A1EFCA96800E1B640 /* CANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANavigationController.m; sourceTree = "<group>"; };
+		EB8C163C1EFCA9FE00E1B640 /* Header_pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_pch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,14 @@
 		EB8C15F61EFCA4C200E1B640 /* CAStroyProject */ = {
 			isa = PBXGroup;
 			children = (
+				EB8C162C1EFCA88D00E1B640 /* CAlandarSet */,
+				EB8C162B1EFCA87300E1B640 /* CALandarShow */,
+				EB8C162A1EFCA6F400E1B640 /* Common */,
 				EB8C15FA1EFCA4C200E1B640 /* AppDelegate.h */,
 				EB8C15FB1EFCA4C200E1B640 /* AppDelegate.m */,
 				EB8C15FD1EFCA4C200E1B640 /* ViewController.h */,
 				EB8C15FE1EFCA4C200E1B640 /* ViewController.m */,
+				EB8C163C1EFCA9FE00E1B640 /* Header_pch.h */,
 				EB8C16001EFCA4C200E1B640 /* Main.storyboard */,
 				EB8C16031EFCA4C200E1B640 /* Assets.xcassets */,
 				EB8C16051EFCA4C200E1B640 /* LaunchScreen.storyboard */,
@@ -138,6 +158,37 @@
 				EB8C161E1EFCA4C200E1B640 /* Info.plist */,
 			);
 			path = CAStroyProjectUITests;
+			sourceTree = "<group>";
+		};
+		EB8C162A1EFCA6F400E1B640 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C162D1EFCA8BB00E1B640 /* CABaseViewController.h */,
+				EB8C162E1EFCA8BB00E1B640 /* CABaseViewController.m */,
+				EB8C16301EFCA8DB00E1B640 /* CATabBarController.h */,
+				EB8C16311EFCA8DB00E1B640 /* CATabBarController.m */,
+				EB8C16391EFCA96800E1B640 /* CANavigationController.h */,
+				EB8C163A1EFCA96800E1B640 /* CANavigationController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		EB8C162B1EFCA87300E1B640 /* CALandarShow */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C16361EFCA92800E1B640 /* CASetViewController.h */,
+				EB8C16371EFCA92800E1B640 /* CASetViewController.m */,
+			);
+			name = CALandarShow;
+			sourceTree = "<group>";
+		};
+		EB8C162C1EFCA88D00E1B640 /* CAlandarSet */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C16331EFCA91A00E1B640 /* CAShowViewController.h */,
+				EB8C16341EFCA91A00E1B640 /* CAShowViewController.m */,
+			);
+			name = CAlandarSet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +258,7 @@
 				TargetAttributes = {
 					EB8C15F31EFCA4C200E1B640 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C78VJKGV2J;
 						ProvisioningStyle = Automatic;
 					};
 					EB8C160C1EFCA4C200E1B640 = {
@@ -274,8 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8C15FF1EFCA4C200E1B640 /* ViewController.m in Sources */,
+				EB8C16351EFCA91A00E1B640 /* CAShowViewController.m in Sources */,
+				EB8C16381EFCA92800E1B640 /* CASetViewController.m in Sources */,
+				EB8C163B1EFCA96800E1B640 /* CANavigationController.m in Sources */,
+				EB8C16321EFCA8DB00E1B640 /* CATabBarController.m in Sources */,
 				EB8C15FC1EFCA4C200E1B640 /* AppDelegate.m in Sources */,
 				EB8C15F91EFCA4C200E1B640 /* main.m in Sources */,
+				EB8C162F1EFCA8BB00E1B640 /* CABaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +483,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C78VJKGV2J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CAStroyProject/Header_pch.h";
 				INFOPLIST_FILE = CAStroyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CAStroyProject;
@@ -437,6 +497,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C78VJKGV2J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CAStroyProject/Header_pch.h";
 				INFOPLIST_FILE = CAStroyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CAStroyProject;
