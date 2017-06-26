@@ -38,7 +38,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
 - (void)configView
 {
     [self.view addSubview:self.bgIcarousel];
@@ -49,7 +48,6 @@
     
 }
 
-#pragma mark -
 #pragma mark iCarousel methods
 
 - (void)carousel:(iCarousel *)carousel didSelectItemAtIndex:(NSInteger)index
@@ -108,4 +106,5 @@
     }
     return _bgIcarousel;
 }
+
 @end
