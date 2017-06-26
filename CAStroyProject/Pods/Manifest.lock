@@ -1,0 +1,15 @@
+PODS:
+  - iCarousel (1.8.3)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - iCarousel
+  - Masonry (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 916c9002e4ec8f284a5eed7aa31122d926931f42
+
+COCOAPODS: 1.2.1

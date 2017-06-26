@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D178A9027CA9286E6678CF8 /* Pods_CAStroyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0DEA1F85AD76BB329BC499 /* Pods_CAStroyProject.framework */; };
 		EB8C15F91EFCA4C200E1B640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15F81EFCA4C200E1B640 /* main.m */; };
 		EB8C15FC1EFCA4C200E1B640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15FB1EFCA4C200E1B640 /* AppDelegate.m */; };
 		EB8C15FF1EFCA4C200E1B640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15FE1EFCA4C200E1B640 /* ViewController.m */; };
@@ -17,9 +18,12 @@
 		EB8C161D1EFCA4C200E1B640 /* CAStroyProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C161C1EFCA4C200E1B640 /* CAStroyProjectUITests.m */; };
 		EB8C162F1EFCA8BB00E1B640 /* CABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C162E1EFCA8BB00E1B640 /* CABaseViewController.m */; };
 		EB8C16321EFCA8DB00E1B640 /* CATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16311EFCA8DB00E1B640 /* CATabBarController.m */; };
-		EB8C16351EFCA91A00E1B640 /* CAShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16341EFCA91A00E1B640 /* CAShowViewController.m */; };
 		EB8C16381EFCA92800E1B640 /* CASetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16371EFCA92800E1B640 /* CASetViewController.m */; };
 		EB8C163B1EFCA96800E1B640 /* CANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C163A1EFCA96800E1B640 /* CANavigationController.m */; };
+		EB8C16411EFCB92100E1B640 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16401EFCB92100E1B640 /* UIColor+CustomColors.m */; };
+		EB8C16451EFCDAAC00E1B640 /* CAShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16441EFCDAAC00E1B640 /* CAShowViewController.m */; };
+		EB8C164A1EFCDB8300E1B640 /* CAShowCanledarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C16491EFCDB8300E1B640 /* CAShowCanledarView.m */; };
+		EB8C164D1EFCE26B00E1B640 /* CAShowCanledarNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C164C1EFCE26B00E1B640 /* CAShowCanledarNavView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25D8A4BEAD0AD5179E03464A /* Pods-CAStroyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAStroyProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAStroyProject/Pods-CAStroyProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8B572FE1DDC6075EE9BA8B39 /* Pods-CAStroyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAStroyProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAStroyProject/Pods-CAStroyProject.release.xcconfig"; sourceTree = "<group>"; };
+		AF0DEA1F85AD76BB329BC499 /* Pods_CAStroyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAStroyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8C15F41EFCA4C200E1B640 /* CAStroyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAStroyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8C15F81EFCA4C200E1B640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB8C15FA1EFCA4C200E1B640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,13 +67,19 @@
 		EB8C162E1EFCA8BB00E1B640 /* CABaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABaseViewController.m; sourceTree = "<group>"; };
 		EB8C16301EFCA8DB00E1B640 /* CATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATabBarController.h; sourceTree = "<group>"; };
 		EB8C16311EFCA8DB00E1B640 /* CATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATabBarController.m; sourceTree = "<group>"; };
-		EB8C16331EFCA91A00E1B640 /* CAShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShowViewController.h; sourceTree = "<group>"; };
-		EB8C16341EFCA91A00E1B640 /* CAShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShowViewController.m; sourceTree = "<group>"; };
 		EB8C16361EFCA92800E1B640 /* CASetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASetViewController.h; sourceTree = "<group>"; };
 		EB8C16371EFCA92800E1B640 /* CASetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASetViewController.m; sourceTree = "<group>"; };
 		EB8C16391EFCA96800E1B640 /* CANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANavigationController.h; sourceTree = "<group>"; };
 		EB8C163A1EFCA96800E1B640 /* CANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANavigationController.m; sourceTree = "<group>"; };
 		EB8C163C1EFCA9FE00E1B640 /* Header_pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_pch.h; sourceTree = "<group>"; };
+		EB8C163F1EFCB92100E1B640 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		EB8C16401EFCB92100E1B640 /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		EB8C16431EFCDAAC00E1B640 /* CAShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShowViewController.h; sourceTree = "<group>"; };
+		EB8C16441EFCDAAC00E1B640 /* CAShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShowViewController.m; sourceTree = "<group>"; };
+		EB8C16481EFCDB8300E1B640 /* CAShowCanledarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShowCanledarView.h; sourceTree = "<group>"; };
+		EB8C16491EFCDB8300E1B640 /* CAShowCanledarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShowCanledarView.m; sourceTree = "<group>"; };
+		EB8C164B1EFCE26B00E1B640 /* CAShowCanledarNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShowCanledarNavView.h; sourceTree = "<group>"; };
+		EB8C164C1EFCE26B00E1B640 /* CAShowCanledarNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShowCanledarNavView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D178A9027CA9286E6678CF8 /* Pods_CAStroyProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +108,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3622AC696A1808E12AC36376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D8A4BEAD0AD5179E03464A /* Pods-CAStroyProject.debug.xcconfig */,
+				8B572FE1DDC6075EE9BA8B39 /* Pods-CAStroyProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4233D02BD34290F98ED86A1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF0DEA1F85AD76BB329BC499 /* Pods_CAStroyProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB8C15EB1EFCA4C200E1B640 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +132,8 @@
 				EB8C16101EFCA4C200E1B640 /* CAStroyProjectTests */,
 				EB8C161B1EFCA4C200E1B640 /* CAStroyProjectUITests */,
 				EB8C15F51EFCA4C200E1B640 /* Products */,
+				3622AC696A1808E12AC36376 /* Pods */,
+				4233D02BD34290F98ED86A1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,8 +150,9 @@
 		EB8C15F61EFCA4C200E1B640 /* CAStroyProject */ = {
 			isa = PBXGroup;
 			children = (
-				EB8C162C1EFCA88D00E1B640 /* CAlandarSet */,
-				EB8C162B1EFCA87300E1B640 /* CALandarShow */,
+				EB8C16461EFCDAB400E1B640 /* CalandarShow */,
+				EB8C163E1EFCB8E800E1B640 /* Categroys */,
+				EB8C162B1EFCA87300E1B640 /* CALandarSset */,
 				EB8C162A1EFCA6F400E1B640 /* Common */,
 				EB8C15FA1EFCA4C200E1B640 /* AppDelegate.h */,
 				EB8C15FB1EFCA4C200E1B640 /* AppDelegate.m */,
@@ -173,22 +207,51 @@
 			name = Common;
 			sourceTree = "<group>";
 		};
-		EB8C162B1EFCA87300E1B640 /* CALandarShow */ = {
+		EB8C162B1EFCA87300E1B640 /* CALandarSset */ = {
 			isa = PBXGroup;
 			children = (
+				EB8C163D1EFCB05400E1B640 /* Views */,
 				EB8C16361EFCA92800E1B640 /* CASetViewController.h */,
 				EB8C16371EFCA92800E1B640 /* CASetViewController.m */,
 			);
-			name = CALandarShow;
+			name = CALandarSset;
 			sourceTree = "<group>";
 		};
-		EB8C162C1EFCA88D00E1B640 /* CAlandarSet */ = {
+		EB8C163D1EFCB05400E1B640 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EB8C16331EFCA91A00E1B640 /* CAShowViewController.h */,
-				EB8C16341EFCA91A00E1B640 /* CAShowViewController.m */,
 			);
-			name = CAlandarSet;
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EB8C163E1EFCB8E800E1B640 /* Categroys */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C163F1EFCB92100E1B640 /* UIColor+CustomColors.h */,
+				EB8C16401EFCB92100E1B640 /* UIColor+CustomColors.m */,
+			);
+			name = Categroys;
+			sourceTree = "<group>";
+		};
+		EB8C16461EFCDAB400E1B640 /* CalandarShow */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C16471EFCDB0700E1B640 /* Views */,
+				EB8C16431EFCDAAC00E1B640 /* CAShowViewController.h */,
+				EB8C16441EFCDAAC00E1B640 /* CAShowViewController.m */,
+			);
+			name = CalandarShow;
+			sourceTree = "<group>";
+		};
+		EB8C16471EFCDB0700E1B640 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C16481EFCDB8300E1B640 /* CAShowCanledarView.h */,
+				EB8C16491EFCDB8300E1B640 /* CAShowCanledarView.m */,
+				EB8C164B1EFCE26B00E1B640 /* CAShowCanledarNavView.h */,
+				EB8C164C1EFCE26B00E1B640 /* CAShowCanledarNavView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB8C16211EFCA4C200E1B640 /* Build configuration list for PBXNativeTarget "CAStroyProject" */;
 			buildPhases = (
+				BA60E527D7851F0E5EEF248B /* [CP] Check Pods Manifest.lock */,
 				EB8C15F01EFCA4C200E1B640 /* Sources */,
 				EB8C15F11EFCA4C200E1B640 /* Frameworks */,
 				EB8C15F21EFCA4C200E1B640 /* Resources */,
+				43F71B67CEFFBC935CB11BF7 /* [CP] Embed Pods Frameworks */,
+				89A484E69AD88FF9D84728D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,15 +386,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43F71B67CEFFBC935CB11BF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CAStroyProject/Pods-CAStroyProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A484E69AD88FF9D84728D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CAStroyProject/Pods-CAStroyProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA60E527D7851F0E5EEF248B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB8C15F01EFCA4C200E1B640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EB8C15FF1EFCA4C200E1B640 /* ViewController.m in Sources */,
-				EB8C16351EFCA91A00E1B640 /* CAShowViewController.m in Sources */,
+				EB8C164D1EFCE26B00E1B640 /* CAShowCanledarNavView.m in Sources */,
+				EB8C16451EFCDAAC00E1B640 /* CAShowViewController.m in Sources */,
 				EB8C16381EFCA92800E1B640 /* CASetViewController.m in Sources */,
+				EB8C16411EFCB92100E1B640 /* UIColor+CustomColors.m in Sources */,
 				EB8C163B1EFCA96800E1B640 /* CANavigationController.m in Sources */,
+				EB8C164A1EFCDB8300E1B640 /* CAShowCanledarView.m in Sources */,
 				EB8C16321EFCA8DB00E1B640 /* CATabBarController.m in Sources */,
 				EB8C15FC1EFCA4C200E1B640 /* AppDelegate.m in Sources */,
 				EB8C15F91EFCA4C200E1B640 /* main.m in Sources */,
@@ -428,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -471,7 +588,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,6 +598,7 @@
 		};
 		EB8C16221EFCA4C200E1B640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D8A4BEAD0AD5179E03464A /* Pods-CAStroyProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C78VJKGV2J;
@@ -495,6 +613,7 @@
 		};
 		EB8C16231EFCA4C200E1B640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B572FE1DDC6075EE9BA8B39 /* Pods-CAStroyProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C78VJKGV2J;
@@ -572,6 +691,7 @@
 				EB8C16231EFCA4C200E1B640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8C16241EFCA4C200E1B640 /* Build configuration list for PBXNativeTarget "CAStroyProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +700,7 @@
 				EB8C16261EFCA4C200E1B640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8C16271EFCA4C200E1B640 /* Build configuration list for PBXNativeTarget "CAStroyProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +709,7 @@
 				EB8C16291EFCA4C200E1B640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,4 +11,7 @@
 #import "CASetViewController.h"
 #import "CAShowViewController.h"
 #import "CANavigationController.h"
+#import "iCarousel.h"
+#import "Masonry.h"
+#import "UIColor+CustomColors.h"
 #endif /* Header_pch_h */
