@@ -5,4 +5,5 @@ use_frameworks!
 target “CAStroyProject” do
     pod 'iCarousel'
     pod 'Masonry','~>1.0.1'
+    pod 'MBProgressHUD'
 end

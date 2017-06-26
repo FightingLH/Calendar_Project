@@ -15,4 +15,5 @@
 #import "iCarousel.h"
 #import "Masonry.h"
 #import "UIColor+CustomColors.h"
+#import "UIViewController+HUD.h"
 #endif /* Header_pch_h */

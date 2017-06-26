@@ -1,15 +1,18 @@
 PODS:
   - iCarousel (1.8.3)
   - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
 
 DEPENDENCIES:
   - iCarousel
   - Masonry (~> 1.0.1)
+  - MBProgressHUD
 
 SPEC CHECKSUMS:
   iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
 
-PODFILE CHECKSUM: 916c9002e4ec8f284a5eed7aa31122d926931f42
+PODFILE CHECKSUM: 67b87f28986e5ee8f8bf0c926233ba3510546938
 
 COCOAPODS: 1.2.1

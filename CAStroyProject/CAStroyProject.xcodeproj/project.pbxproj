@@ -11,6 +11,7 @@
 		EB593EBD1F00A2E600989102 /* CAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB593EBC1F00A2E600989102 /* CAMapViewController.m */; };
 		EB593EC21F00A37700989102 /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB593EBF1F00A37700989102 /* RTRootNavigationController.m */; };
 		EB593EC31F00A37700989102 /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB593EC11F00A37700989102 /* UIViewController+RTRootNavigationController.m */; };
+		EB593EC61F00DC5E00989102 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB593EC51F00DC5E00989102 /* UIViewController+HUD.m */; };
 		EB8C15F91EFCA4C200E1B640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15F81EFCA4C200E1B640 /* main.m */; };
 		EB8C15FC1EFCA4C200E1B640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15FB1EFCA4C200E1B640 /* AppDelegate.m */; };
 		EB8C15FF1EFCA4C200E1B640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15FE1EFCA4C200E1B640 /* ViewController.m */; };
@@ -56,6 +57,8 @@
 		EB593EBF1F00A37700989102 /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
 		EB593EC01F00A37700989102 /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
 		EB593EC11F00A37700989102 /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		EB593EC41F00DC5E00989102 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		EB593EC51F00DC5E00989102 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 		EB8C15F41EFCA4C200E1B640 /* CAStroyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAStroyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8C15F81EFCA4C200E1B640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB8C15FA1EFCA4C200E1B640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -260,6 +263,8 @@
 			children = (
 				EB8C163F1EFCB92100E1B640 /* UIColor+CustomColors.h */,
 				EB8C16401EFCB92100E1B640 /* UIColor+CustomColors.m */,
+				EB593EC41F00DC5E00989102 /* UIViewController+HUD.h */,
+				EB593EC51F00DC5E00989102 /* UIViewController+HUD.m */,
 			);
 			name = Categroys;
 			sourceTree = "<group>";
@@ -470,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB593EC61F00DC5E00989102 /* UIViewController+HUD.m in Sources */,
 				EB8C15FF1EFCA4C200E1B640 /* ViewController.m in Sources */,
 				EB593EBD1F00A2E600989102 /* CAMapViewController.m in Sources */,
 				EB593EC31F00A37700989102 /* UIViewController+RTRootNavigationController.m in Sources */,
