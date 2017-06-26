@@ -22,14 +22,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor showColor];
-    self.items = [NSMutableArray array];
-    for (int i = 0; i < 12; i++)
-    {
-        [_items addObject:@(i)];
-    }
-    self.bgIcarousel.type = iCarouselTypeWheel;
-    [self configView];
+//    self.view.backgroundColor = [UIColor showColor];
+//    self.items = [NSMutableArray array];
+//    for (int i = 0; i < 12; i++)
+//    {
+//        [_items addObject:@(i)];
+//    }
+//    self.bgIcarousel.type = iCarouselTypeWheel;
+//    [self configView];
     
 }
 

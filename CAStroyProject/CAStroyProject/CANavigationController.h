@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RTRootNavigationController.h"
 
-@interface CANavigationController : UINavigationController
+@interface CANavigationController : RTRootNavigationController
 
 @end

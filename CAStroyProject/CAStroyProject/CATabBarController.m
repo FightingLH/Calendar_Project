@@ -21,7 +21,9 @@
 
 - (void)setupChildControllers{
     
-    [self setupChildNavigationControllerWithClass:[CANavigationController class] tabBarImageName:@"flight_selectTab" tabBarSelectImageName:@"flight_tab" rootViewControllerClass: [CAShowViewController class] rootViewControllerTitle:@"首页"];
+    [self setupChildNavigationControllerWithClass:[CANavigationController class] tabBarImageName:@"flight_selectTab" tabBarSelectImageName:@"flight_tab" rootViewControllerClass: [CAMapViewController class] rootViewControllerTitle:@"路径"];
+    
+    [self setupChildNavigationControllerWithClass:[CANavigationController class] tabBarImageName:@"flight_selectTab" tabBarSelectImageName:@"flight_tab" rootViewControllerClass: [CAShowViewController class] rootViewControllerTitle:@"记事"];
     
     [self setupChildNavigationControllerWithClass:[CANavigationController class] tabBarImageName:@"airport_selectTab" tabBarSelectImageName:@"airport_tab" rootViewControllerClass: [CASetViewController class] rootViewControllerTitle:@"设置"];
     

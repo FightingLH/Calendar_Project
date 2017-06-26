@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9D178A9027CA9286E6678CF8 /* Pods_CAStroyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0DEA1F85AD76BB329BC499 /* Pods_CAStroyProject.framework */; };
+		EB593EBD1F00A2E600989102 /* CAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB593EBC1F00A2E600989102 /* CAMapViewController.m */; };
+		EB593EC21F00A37700989102 /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB593EBF1F00A37700989102 /* RTRootNavigationController.m */; };
+		EB593EC31F00A37700989102 /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB593EC11F00A37700989102 /* UIViewController+RTRootNavigationController.m */; };
 		EB8C15F91EFCA4C200E1B640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15F81EFCA4C200E1B640 /* main.m */; };
 		EB8C15FC1EFCA4C200E1B640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15FB1EFCA4C200E1B640 /* AppDelegate.m */; };
 		EB8C15FF1EFCA4C200E1B640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C15FE1EFCA4C200E1B640 /* ViewController.m */; };
@@ -47,6 +50,12 @@
 		25D8A4BEAD0AD5179E03464A /* Pods-CAStroyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAStroyProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAStroyProject/Pods-CAStroyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8B572FE1DDC6075EE9BA8B39 /* Pods-CAStroyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAStroyProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAStroyProject/Pods-CAStroyProject.release.xcconfig"; sourceTree = "<group>"; };
 		AF0DEA1F85AD76BB329BC499 /* Pods_CAStroyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAStroyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB593EBB1F00A2E600989102 /* CAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMapViewController.h; sourceTree = "<group>"; };
+		EB593EBC1F00A2E600989102 /* CAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMapViewController.m; sourceTree = "<group>"; };
+		EB593EBE1F00A37700989102 /* RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootNavigationController.h; sourceTree = "<group>"; };
+		EB593EBF1F00A37700989102 /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
+		EB593EC01F00A37700989102 /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		EB593EC11F00A37700989102 /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
 		EB8C15F41EFCA4C200E1B640 /* CAStroyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAStroyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8C15F81EFCA4C200E1B640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB8C15FA1EFCA4C200E1B640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +134,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EB593EB91F00A1FF00989102 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB593EBA1F00A21100989102 /* CAlandarMAp */,
+				EB8C16461EFCDAB400E1B640 /* CalandarShow */,
+				EB8C162B1EFCA87300E1B640 /* CALandarSset */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EB593EBA1F00A21100989102 /* CAlandarMAp */ = {
+			isa = PBXGroup;
+			children = (
+				EB593EBB1F00A2E600989102 /* CAMapViewController.h */,
+				EB593EBC1F00A2E600989102 /* CAMapViewController.m */,
+			);
+			name = CAlandarMAp;
+			sourceTree = "<group>";
+		};
 		EB8C15EB1EFCA4C200E1B640 = {
 			isa = PBXGroup;
 			children = (
@@ -150,9 +178,8 @@
 		EB8C15F61EFCA4C200E1B640 /* CAStroyProject */ = {
 			isa = PBXGroup;
 			children = (
-				EB8C16461EFCDAB400E1B640 /* CalandarShow */,
+				EB593EB91F00A1FF00989102 /* Controllers */,
 				EB8C163E1EFCB8E800E1B640 /* Categroys */,
-				EB8C162B1EFCA87300E1B640 /* CALandarSset */,
 				EB8C162A1EFCA6F400E1B640 /* Common */,
 				EB8C15FA1EFCA4C200E1B640 /* AppDelegate.h */,
 				EB8C15FB1EFCA4C200E1B640 /* AppDelegate.m */,
@@ -197,6 +224,10 @@
 		EB8C162A1EFCA6F400E1B640 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EB593EBE1F00A37700989102 /* RTRootNavigationController.h */,
+				EB593EBF1F00A37700989102 /* RTRootNavigationController.m */,
+				EB593EC01F00A37700989102 /* UIViewController+RTRootNavigationController.h */,
+				EB593EC11F00A37700989102 /* UIViewController+RTRootNavigationController.m */,
 				EB8C162D1EFCA8BB00E1B640 /* CABaseViewController.h */,
 				EB8C162E1EFCA8BB00E1B640 /* CABaseViewController.m */,
 				EB8C16301EFCA8DB00E1B640 /* CATabBarController.h */,
@@ -440,6 +471,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8C15FF1EFCA4C200E1B640 /* ViewController.m in Sources */,
+				EB593EBD1F00A2E600989102 /* CAMapViewController.m in Sources */,
+				EB593EC31F00A37700989102 /* UIViewController+RTRootNavigationController.m in Sources */,
 				EB8C164D1EFCE26B00E1B640 /* CAShowCanledarNavView.m in Sources */,
 				EB8C16451EFCDAAC00E1B640 /* CAShowViewController.m in Sources */,
 				EB8C16381EFCA92800E1B640 /* CASetViewController.m in Sources */,
@@ -449,6 +482,7 @@
 				EB8C16321EFCA8DB00E1B640 /* CATabBarController.m in Sources */,
 				EB8C15FC1EFCA4C200E1B640 /* AppDelegate.m in Sources */,
 				EB8C15F91EFCA4C200E1B640 /* main.m in Sources */,
+				EB593EC21F00A37700989102 /* RTRootNavigationController.m in Sources */,
 				EB8C162F1EFCA8BB00E1B640 /* CABaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
