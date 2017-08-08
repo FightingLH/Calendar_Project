@@ -31,7 +31,6 @@ static const void *CAHttpRequestHUDKey = &CAHttpRequestHUDKey;
 
 - (void)showMsg:(NSString *)msg
 {
-    
     UIView *view = [[UIApplication sharedApplication].delegate window];
     view.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
